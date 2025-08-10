@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:huiyan}/language-stats-api",
+            "name": "Debug LanguageStatsApi (language-stats-api)",
+            "program": "${workspaceFolder:huiyan}/language-stats-api/.build/debug/LanguageStatsApi",
+            "preLaunchTask": "swift: Build Debug LanguageStatsApi (language-stats-api)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:huiyan}/language-stats-api",
+            "name": "Release LanguageStatsApi (language-stats-api)",
+            "program": "${workspaceFolder:huiyan}/language-stats-api/.build/release/LanguageStatsApi",
+            "preLaunchTask": "swift: Build Release LanguageStatsApi (language-stats-api)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:huiyan}",
+            "name": "Debug LanguageStatsApi",
+            "program": "${workspaceFolder:huiyan}/.build/debug/LanguageStatsApi",
+            "preLaunchTask": "swift: Build Debug LanguageStatsApi"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:huiyan}",
+            "name": "Release LanguageStatsApi",
+            "program": "${workspaceFolder:huiyan}/.build/release/LanguageStatsApi",
+            "preLaunchTask": "swift: Build Release LanguageStatsApi"
+        }
+    ]
+}
